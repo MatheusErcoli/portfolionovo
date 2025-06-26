@@ -1,5 +1,5 @@
 <?php
-$base = "http://localhost/portfolionovo/"
+$base = "http://localhost/portfolionovo/home"
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -9,7 +9,7 @@ $base = "http://localhost/portfolionovo/"
     <title>Portfólio</title>
     <base href="<?=$base?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilo.css">
     <link rel="shortcut icon" href="img/Group.svg" type="image/x-icon">
 </head>
 <body>
@@ -27,11 +27,11 @@ $base = "http://localhost/portfolionovo/"
         </div>
         <nav class="header-nav">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="portfolio.html">Portfólio</a></li>
-                <li><a href="serviços.html">Serviços</a></li>
-                <li><a href="contato.html">Contato</a></li>
+                <li><a href="home">Home</a></li>
+                <li><a href="sobre">Sobre</a></li>
+                <li><a href="portfolio">Portfólio</a></li>
+                <li><a href="serviços">Serviços</a></li>
+                <li><a href="contato">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -39,6 +39,8 @@ $base = "http://localhost/portfolionovo/"
         <?php
     if (isset($_GET["param"])) {
       $p = explode("/", $_GET["param"]);
+    }else{
+        $p = [];
     }
     $page = $p[0] ?? "home";
 
