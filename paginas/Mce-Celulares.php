@@ -12,4 +12,19 @@
     <div class="center">
         <img src="img/mcecelulares3.png" alt="site mce celulares" class="fotoSite">
     </div>
+    <p class="texto-mce">Essa página é a parte de produtos, aonde eu fiz todos os produtos em um array em PHP e usei foreach para mostrar eles, eles estão em cards e cada item tem um "mostrar mais" que mostra informações sobre o produto escolhido, ao escolher e clicar no produto você será enviado a página de contato do site.</p>
+    <div class="center">
+        <img src="img/mcecelulares4.png" alt="site mce celulares" class="fotoSite">
+    </div>
+    <p class="texto-mce2">Essa página é a de contato, nela tem vários campos pois estava treinando verificação de campos em formulário, ao enviar com todos os campos certos, a mensagem cai no email da empresa.</p>
+    <div class="flex-btn">
+    <a href="https://mce-celulares.infinityfreeapp.com/home" class="btn-2" target="_blank">Link do site</a>
+    </div>
+    <div class="margin-bottom">
+            <ul class="flex-fila lista">
+                <li><a href="https://www.instagram.com/matheus_ercoli/" target="_blank"><i class="fa-brands fa-instagram icon"></i></a></li>
+                <li><a href="https://github.com/MatheusErcoli" target="_blank"><i class="fa-brands fa-github icon"></i></a></li>
+                <li><a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa-brands fa-linkedin icon"></i></a></li>
+            </ul>
+        </div>
 </div>

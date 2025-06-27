@@ -16,17 +16,23 @@ $base = "http://localhost/portfolionovo/home"
     <header>
         <div class="flex-linha">
             <div>
-                <img src="img/Group.svg" alt="dev" class="logo" width="40" height="50">
-            </div>
-            <div>
                 <h2>Matheus Ercoli</h2>
             </div>
             <div>
                 <a href="javascript:MostrarMenu()" title="menu" class="header-menu"><i class="fa-solid fa-bars"></i></a>
             </div>
+            <nav class="header-nav header-desk">
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="sobre">Sobre</a></li>
+                <li><a href="portfolio">Portfólio</a></li>
+                <li><a href="serviços">Serviços</a></li>
+                <li><a href="contato">Contato</a></li>
+            </ul>
+        </nav>
         </div>
     </header>
-     <nav class="header-nav">
+     <nav class="header-nav header-celular">
             <ul>
                 <li><a href="home">Home</a></li>
                 <li><a href="sobre">Sobre</a></li>
@@ -57,7 +63,7 @@ $base = "http://localhost/portfolionovo/home"
     <script src="js/jquery-1.11.3.min.js"></script>
     <script>
         function MostrarMenu() {
-            $('.header-nav').toggle();
+            $('.header-celular').toggle();
         }
         function abrirPagina(pagina){
             $('#content').load(`paginas/${pagina}.php`);
