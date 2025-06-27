@@ -35,11 +35,7 @@ header{
 }
 .header-nav {
     display: none; 
-    flex-direction: column;
-    position: fixed; 
-    top: 200px;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Ajusta o ponto de referência para o centro */
+    flex-direction: column; 
     background-color: white;
     text-align: center;
     justify-content: center;
@@ -144,13 +140,9 @@ h4{
 .header-nav {
         display: flex; 
         flex-direction: row;
-        position: fixed;
-        top: 0px;
         margin: 20px;
-        right: 0;
-        transform: none; 
         text-align: right;
-        justify-content: flex-start; 
+        justify-content: right; 
         padding: 0; 
         box-shadow: none; 
         border-radius: 0; 
@@ -242,5 +234,67 @@ h4{
         flex-direction: row;
         justify-content: center;
         align-items: center;
+    }
+}
+/* css da página portfólio */
+.flex-2{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.btn-2{
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 10px;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+.btn-2:hover{
+    background-color: #555;
+}
+/* css do content mce celulares */
+h3{
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+    .fotoSite{
+        width: 350px;
+        height: auto;
+        margin: 20px auto;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .flex-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.texto-mce{
+    text-align: justify;
+    width: 70%;
+    margin: 20px auto;
+    font-size: 22px;
+    line-height: 1.6;
+}
+@media (min-width: 800px){
+    .fotoSite{
+        width: 80%;
+        height: auto;
+        text-align: center;
+    }
+    .btn-2{
+        margin-bottom: 40px;
     }
 }

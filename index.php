@@ -25,7 +25,8 @@ $base = "http://localhost/portfolionovo/home"
                 <a href="javascript:MostrarMenu()" title="menu" class="header-menu"><i class="fa-solid fa-bars"></i></a>
             </div>
         </div>
-        <nav class="header-nav">
+    </header>
+     <nav class="header-nav">
             <ul>
                 <li><a href="home">Home</a></li>
                 <li><a href="sobre">Sobre</a></li>
@@ -34,7 +35,6 @@ $base = "http://localhost/portfolionovo/home"
                 <li><a href="contato">Contato</a></li>
             </ul>
         </nav>
-    </header>
     <main>
         <?php
     if (isset($_GET["param"])) {
@@ -59,6 +59,10 @@ $base = "http://localhost/portfolionovo/home"
         function MostrarMenu() {
             $('.header-nav').toggle();
         }
+        function abrirPagina(pagina){
+            $('#content').load(`paginas/${pagina}.php`);
+        }
+        abrirPagina('Mce-Celulares');
     </script>
 </body>
 </html>
