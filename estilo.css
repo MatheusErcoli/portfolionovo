@@ -316,43 +316,18 @@ h3{
     .btn-2{
         margin-bottom: 40px;
     }
+    
 }
 /* css da página serviços */
 .servicos-h2{
-    color: #333;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 20px;
-}
-.servicos-p{
-    color: darkgray;
-    font-size: 16px;
-    text-align: center;
-    margin-top: 20px;
-}
-.servicos-h4{
-    color: #333;
-    font-size: 25px;
-    text-align: center;
-    margin-top: 5px;
-}
-.flex-column{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.tamanho{
-        color: #333;
-        font-size: 70px;
-        text-align: center;
-        margin-top: 20px;
+        font-size: 24px;
+        margin: 5px;
     }
-@media (min-width: 800px){
-    .flex-column{
-         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 60px;
+    .servicos-p{
+        font-size: 20px;
+        margin: 5px;
     }
-}
+    .servicos-h4{
+        font-size: 20px;
+        margin: 5px;
+    }

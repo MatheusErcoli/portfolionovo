@@ -1,37 +1,41 @@
 <section>
+        <div class="center">
             <h2 class="servicos-h2">Minhas Techs</h2>
-        </section>
-        <section>
+        </div>
+        <div class="center">
             <p class="servicos-p">Tecnologias</p>
+            </div>
+            <div class="center">
             <h4 class="servicos-h4">Já Utilizadas</h4>
-        </section>
-        <section>
-            <div class="flex-column">
+            </div>
+
+            <div class="flex">
                 <div class="center">
-                    <h1><i class="fa-brands fa-html5"></i></h1>
+                  <img src="img/html5.png" alt="html5" class="img">
                 </div>
                 <div class="center">
-                    <h1 ><i class="fa-brands fa-css3-alt"></i></h1>
+                    <img src="img/css3.png" alt="css3" class="img">
                 </div>
                 <div class="center">
-                    <h1 ><i class="fa-brands fa-js "></i></h1>
+                    <img src="img/javascript.png" alt="js" class="img">
                 </div>
                 <div class="center">
-                    <h1 ><i class="fa-brands fa-php "></i></h1>
+                    <img src="img/php.png" alt="php" class="img">
                 </div>
             </div>
-        </section>
-        <section>
-            <p>Tecnologias</p>
-            <h4>Atualmente Desenvolvimento</h4>
-        </section>
-        <section>
-            <div class="flex-column">
-                <div>
-                    <h1><i class="fa-brands fa-php"></i></h1>
+        <div class="center">
+            <p class="servicos-p">Tecnologias</p>
+            </div>
+            <div class="center">
+                <h4 class="servicos-h4">Atualmente Desenvolvimento</h4>
+            </div>
+
+            <div class="flex">
+                <div class="center">
+                    <img src="img/php.png" alt="php" class="img">
                 </div>
-                <div>
-                    <h1></h1>
+                <div class="center">
+                   <img src="img/mysql.png" alt="mysql" class="img">
                 </div>
             </div>
         </section>
