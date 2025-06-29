@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="btn-meio">
-            <a href="sobre" class="btn">Saiba mais sobre mim</a>
+            <a href="sobre" class="btn-2">Saiba mais sobre mim</a>
         </div>
         <div>
             <ul class="flex-fila lista">
