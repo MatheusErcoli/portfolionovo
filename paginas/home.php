@@ -4,19 +4,17 @@
                 <h4>Olá Prazer,</h4>
                 <h1 class="text">EU SOU UM <br>PROGRAMADOR</h1>
                 <p class="text">E seja bem vindo ao meu website Portfólio</p>
-            </div>
-            <div class="img">
-                <img src="img/Home_art 1.svg" alt="programador" width="350px" height="250px">
-            </div>
-        </div>
-        <div class="btn-meio">
+                 <div class="btn-meio">
             <a href="sobre" class="btn-2">Saiba mais sobre mim</a>
         </div>
-        <div>
-            <ul class="flex-fila lista">
+                <ul class="flex-fila lista">
                 <li><a href="https://www.instagram.com/matheus_ercoli/" target="_blank"><i class="fa-brands fa-instagram icon"></i></a></li>
                 <li><a href="https://github.com/MatheusErcoli" target="_blank"><i class="fa-brands fa-github icon"></i></a></li>
                 <li><a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa-brands fa-linkedin icon"></i></a></li>
             </ul>
+            </div>
+            <div class="img">
+                <img src="img/Home_art 1.svg" alt="programador" width="350px" height="250px">
+            </div>
         </div>
     </section>

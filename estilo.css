@@ -89,7 +89,7 @@ h4{
 }
 .btn-meio{
     text-align: center;
-    margin: 20px;
+    margin: 40px;
 }
 .flex-fila{
     display: flex;
@@ -176,16 +176,14 @@ h4{
         flex-direction: row; 
         gap: 0px;
     }
-    
     img{
         width: 550px;
         height: 400px;
         margin: 10px;
-        margin-right: 200px;
     }
     .text-desk{
         margin-top: 30px;
-        margin-left: 200px;
+        margin-left: 80px;
         
     }
     .text{
