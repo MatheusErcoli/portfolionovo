@@ -1,4 +1,4 @@
-<section class="container">
+<section class="">
         <div class="flex-div">
             <div class="text-desk">
                 <h4>Olá Prazer,</h4>
@@ -13,7 +13,7 @@
                 <li><a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa-brands fa-linkedin icon"></i></a></li>
             </ul>
             </div>
-            <div class="img">
+            <div class="img img-desk">
                 <img src="img/Home_art 1.svg" alt="programador" width="350px" height="250px">
             </div>
         </div>

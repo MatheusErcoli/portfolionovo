@@ -66,10 +66,7 @@ header{
     display: none;
 }
 /* css da página home */
-.container{
-    width: 90%;
-    margin: 0 auto;
-}
+
 h4{
     margin: 10px;
 }
@@ -113,13 +110,18 @@ h4{
     color: #555;
 }
 .img{
-    width: 100%;
     height: auto;
     margin: 10px;
     text-align: center;
     justify-content: center;
 }
-@media(min-width: 800px) {
+.img-desk{
+    display: none;
+}
+@media(min-width: 700px) {
+    .img-desk{
+        display: block;
+    }
     .header-menu{
         display: none;
     }
