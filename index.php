@@ -1,5 +1,8 @@
 <?php
-$base = "http://localhost/portfolionovo/home"
+// $base ="https://" . $_SERVER['SERVER_NAME'] . $_SERVER['SCRIPT_NAME'];
+?>
+<?php
+$base = "http://localhost/portfolionovo/";
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -27,7 +30,7 @@ $base = "http://localhost/portfolionovo/home"
                 <li><a href="home">Home</a></li>
                 <li><a href="sobre">Sobre</a></li>
                 <li><a href="portfolio">Portfólio</a></li>
-                <li><a href="servicos">Serviços</a></li>
+                <li><a href="servicos">Tecnologias</a></li>
                 <li><a href="contato">Contato</a></li>
             </ul>
         </nav>

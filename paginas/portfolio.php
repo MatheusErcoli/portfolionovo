@@ -2,12 +2,12 @@
             <div class="flex-2">
                 <div class="btn-2">
                     <a href="javascript:abrirPagina('Mce-Celulares')">
-                        Mce Celulares
+                        2° projeto
                     </a>
                 </div>
                 <div class="btn-2">
                     <a href="javascript:abrirPagina('archertime')">
-                        Archer Time
+                        1° projeto
                     </a>
                 </div>
                 <div class="btn-2">

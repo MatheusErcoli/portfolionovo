@@ -10,18 +10,18 @@
             </div>
 
             <div class="flex">
-                <div class="center">
-                  <img src="img/html5.png" alt="html5" class="img">
-                </div>
-                <div class="center">
-                    <img src="img/css3.png" alt="css3" class="img">
-                </div>
-                <div class="center">
-                    <img src="img/javascript.png" alt="js" class="img">
-                </div>
-                <div class="center">
-                    <img src="img/php.png" alt="php" class="img">
-                </div>
+                <div>
+               <img src="img/html5.png" alt="html5" style="width: 190px; height: auto; margin: 50px;">
+            </div>
+            <div>
+                <img src="img/css3.png" alt="css3" style="width: 140px; height: auto; margin: 50px;">
+            </div>
+            <div>
+                <img src="img/javascript.png" alt="javascript" style="width: 170px; height: auto; margin: 50px;">
+            </div>
+            <div>
+                <img src="img/php.png" alt="php" style="width: 170px; height: auto; margin: 50px;">
+            </div>
             </div>
         <div class="center">
             <p class="servicos-p">Tecnologias</p>
@@ -31,11 +31,8 @@
             </div>
 
             <div class="flex">
-                <div class="center">
-                    <img src="img/php.png" alt="php" class="img">
-                </div>
-                <div class="center">
-                   <img src="img/mysql.png" alt="mysql" class="img">
+                <div>
+                   <img src="img/mysql.png" alt="mysql" style="width: 170px; height: auto; margin: 50px;">
                 </div>
             </div>
         </section>
